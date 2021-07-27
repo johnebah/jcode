@@ -1,0 +1,45 @@
+.muller img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.imango{
+	width: 100px;
+	height: 100px;
+}
+.product_arrange{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 40px;
+	margin-top: 40px;
+}
+.padder{
+	padding: 10px;
+}
+.padder h6{
+	color: darkblue;
+	font-family: tahoma;
+}
+.padder h5{
+	color:red;
+	font-family:lucida;
+	font-weight: bolder;
+}
+.checked{
+	color: orange;
+}
+.muller{
+	display: flex;
+}
+.muller p{
+	padding: 20px;
+}
+
+@media(max-width: 990px){
+	.muller{
+		display: block;
+	}
+	.muller p{
+		padding:0px;
+	}
+}

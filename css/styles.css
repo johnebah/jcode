@@ -1,0 +1,350 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+.logo-image img{
+	width: 80px;
+	padding-top: 5px;
+}
+header{
+	background: darkblue;
+	height: inherit;
+}
+.logo-content{
+	display: flex;
+}
+.logo-text h2{
+	color: yellow;
+	font-weight: bold;
+	margin:0;
+	font-family: algerian;
+	font-size: 50px;
+}
+.logo-text p{
+	color: red;
+	font-style: italic;
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+}
+.toggle{
+	padding:1.6rem;
+	display: none;
+}
+.toggle i{
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+.menu{
+	padding: 1.6rem;
+	transition: 0.5s ease all;
+	z-index: 5;
+}
+.par{
+	list-style: none;
+	display: flex;
+	position: relative;
+}
+.par li{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	/*padding: 5px 25px;*/
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.par li:hover{
+	border-bottom: 4px solid white;
+}
+.sub{
+background-color: darkblue;
+color: red;
+}
+.sub li {
+	text-align: center;
+}
+.sub li:hover{
+	border-bottom: 4px solid red;
+}
+.sub{
+	display: none;
+}
+.par li:hover .sub{
+	display: block;
+}
+#banner{
+	background-color: lightgrey;
+	height: inherit;
+	width: 100%;
+}
+.banner-text h2{
+	color: orange;
+	font-size: 30px;
+	font-family: algerian;
+	font-weight: bolder;
+	margin:0;
+}
+.banner-text{
+	padding: 50px;
+	padding-top: 100px;
+}
+.banner-text p{
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+.banner-text input{
+	padding:10px;
+	margin-left: 10px;
+	width:200px;
+	font-family:berlin sans fb;
+	font-weight: bolder;
+}
+.banner-text input:hover{
+	background-color: darkblue;
+}
+.banner-img img{
+	width: 80%;
+	margin-left: 50px;
+
+}
+#team{
+	margin-top: 20px;
+	background:linear-gradient(to right, darkblue, yellow);
+	height:inherit;
+}
+#team-img{
+	background-color: transparent;
+	border-radius:20px;
+	height:inherit;
+}
+#team h1{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: berlin sans fb;
+	font-weight: bold;
+}
+#team-img img{
+	width: 200px;
+	border-radius: 200px;
+	height: 30vh;
+}
+#team-img h3{
+	color: white;
+	margin-left: 20px;
+}
+#slider{
+	margin-top: 20px;
+}
+#last{
+	background-color: lightblue;
+}
+.logo-texts h2{
+	color: darkblue;
+	font-weight: bold;
+	margin:0;
+	font-family: algerian;
+	font-size: 50px;
+}
+.logo-texts p{
+	color: red;
+	font-style: italic;
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.orderlist ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.orderlist ul li{
+    display: inline-block;
+}
+.orderlist ul li a{
+    padding:5px 25px;
+    background-color:white;
+    font-weight: bold;
+    font-family: berlin sans fb;
+    color: darkblue;
+    cursor: pointer;
+}
+.logo-pad p{
+    color: white;
+    font-size: 20px;
+}
+.orderlist ul li a:hover{
+    transition: 0.5s ease all;
+    background-color:yellow;
+    color:darkblue;
+}
+.vision h4{
+    text-align: center;
+font-size: 30px;
+color:darkblue;
+font-family: berlin sans fb;
+}
+.vision p{
+    color:darkblue;
+    font-size: 20px;
+    text-align: center;
+    font-family: times new romans;
+}
+.sp p{
+	color: darkblue;
+	font-family: berlin sans fb;
+}	
+.mod p{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: berlin sans fb
+}
+.tod p{
+    color: white;
+    font-weight: bold;
+    font-family: berlin sans fb;
+}
+footer{
+    background-color:darkblue;
+    height:inherit;
+    margin-top: 20px;
+}
+.footer{
+    padding: 10px;
+}
+.form input[type='text']{
+	width: 100%;
+	border:1px solid white;
+	border-bottom: 3px solid darkblue;
+}
+.form input[type='email']{
+	width: 100%;
+	border:1px solid white;
+	border-bottom: 3px solid darkblue;
+}
+.form input[type='password']{
+	width: 100%;
+	border:1px solid white;
+	border-bottom: 3px solid darkblue;
+}
+.form input::placeholder{
+	color: darkblue;
+	font-weight: normal;
+}
+.form input:focus{
+	border-color: white;
+	border-bottom-color: green;
+}
+.form input[type='text']:input-placeholder{
+	color:green;
+}
+.form select{
+	width: 100%;
+	border:0px;
+	border-bottom: 3px solid darkblue;
+}
+select .gend{
+	color: red;
+}
+.form select::placeholder{
+	color: red;
+	font-weight: normal;
+}
+.form select:focus{
+	border-color: green;
+}
+.form input{
+	padding: 10px;
+}
+.form select{
+	padding: 10px;
+}
+.form label{
+	color: darkblue;
+	font-weight: bold;
+	font-size: 12px;
+}
+.form input[type='submit']{
+	width: 200px;
+}
+.form form{
+	background-color: yellow;
+	padding: 70px;
+	border-radius: 20px;
+}
+#fluid{
+	background-color: darkblue;
+}
+
+#form{
+	padding-top: 100px;
+}
+
+
+
+
+
+
+@media(max-width: 990px){
+	.toggle{
+		display: block;
+		cursor: pointer;
+		position: absolute;
+		background-color: transparent;
+		left: 80%;
+	}
+	.banner-img img{
+	width: 100%;
+	margin-left:0;
+
+}
+
+	.par{
+		flex-direction: column;
+	}
+	.par li{
+		height: 180px;
+	}
+	.sub li{
+		height: 3px;
+	}
+	.par li:hover{
+		border-bottom: none;
+	}
+	.sub li:hover{
+		border-bottom: 3px solid white;
+	}
+	.sub li a{
+		color: red;
+	}
+	.menu{
+		position: absolute;
+		background-color: darkblue;
+		top: -1008%;
+		transition: 0.5s ease all;
+	}
+	.display{
+		top:13.3%;
+	}
+	.menu ul li a{
+		font-size: 15px;
+	}
+}
